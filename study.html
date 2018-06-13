@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Обучение</title>
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+
+</head>
+<body>
+	<!-- ~~~~~~~~~ HEADER ~~~~~~~~~ -->
+	<div class="header">
+		<div class="top-line">
+			<div class="container top-line">
+						<div class="logo">
+							<span>Сфера</span>
+						</div>
+						<div class="top-ui d-flex">
+							<ul class="top-menu">
+							<li class="nav-item all-programs">
+								<a class="nav-link dropdown-toggle underline" href="#" id="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Обучение
+								</a>
+								<div class="dropdown-programs" aria-labelledby="">
+									<a class="dropdown-item" href="#">Пожарно-технический минимум</a>
+									<a class="dropdown-item" href="#">Тест</a>
+									<a class="dropdown-item" href="#">Какой-то пункт</a>
+								</div>
+							</li>
+							<li class="nav-item">
+								<a href="#contacts" class="nav-link underline">Контакты</a>
+							</li>
+						</ul>			
+						<ul class="top-menu">
+							<li class="nav-item">
+								<a href="" class="nav-link email">info@ss.ru</a>
+							</li>
+							<li class="nav-item top-phone" data-toggle="modal" data-target="">
+								<a href="" class="nav-link"><i class="fa fa-phone" aria-hidden="true"></i> 8 800 934 34 34</a>
+							</li>
+						</ul>
+						</div>
+						
+			</div>
+		</div>
+		<div class="main-menu">
+			<div class="container">
+				<nav class="navbar navbar-expand-lg navbar-light">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i> Меню</span>
+					</button>
+					<div class="mobile-phone hidden-lg"><i class="fa fa-phone" aria-hidden="true"></i> 8 800 934 34 34</div>
+
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav mr-auto">
+							<li class="nav-item active">
+								<a class="nav-link" href="#">Расчет категорий <span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Проектирование</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Расчет пожарных рисков</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Проектирование</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Проектирование</a>
+							</li>
+							
+							<li class="nav-item all-services">
+								<a class="nav-link dropdown-toggle" href="#" id="" role="button" data-toggle="" aria-haspopup="true" aria-expanded="false">
+									Все услуги
+								</a>
+								<div class="dropdown-services" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="#">Проектирование</a>
+									<a class="dropdown-item" href="#">Расчет пожарных рисков</a>
+									<a class="dropdown-item" href="#">Расчет категорий</a>
+								</div>
+							</li>
+
+							<li class="nav-item" data-toggle="modal" data-target="#callBack">
+								<a class="nav-link" href="#"><i class="fa fa-phone" aria-hidden="true"></i> Обратный звонок</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal -->
+	<div class="modal fade" id="callBack" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body center">
+					<h4>Заказ обратного звонка</h4>
+					<p>Заполните форму и наш специалист свяжется с вами</p>
+					<div class=" vertical-form">
+						<div class="">
+							<form class="cta-form" action="">
+								<input type="text" placeholder="Ваше имя">
+								<input type="text" placeholder="Телефон"><br>
+								<textarea type="textarea" placeholder="Вид услуги"></textarea>
+								<button type="button" class="btn btn-primary">Заказать</button>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<i class="fa fa-lock" aria-hidden="true"></i> &nbsp Все ваши данные строго конфиденциальны
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="getService" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body center">
+					<h4>Заказ услуги</h4>
+					<p>Заполните форму и наш специалист свяжется с вами</p>
+					<div class=" vertical-form">
+						<div class="">
+							<form class="cta-form" action="">
+								<input type="text" placeholder="Ваше имя">
+								<input type="text" placeholder="Телефон"><br>
+								<textarea type="textarea" placeholder="Вид услуги"></textarea>
+								<button type="button" class="btn btn-primary">Заказать</button>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<i class="fa fa-lock" aria-hidden="true"></i> &nbsp Все ваши данные строго конфиденциальны
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ~~~~~~~~~~ END HEADER ~~~~~~~~~ -->
+	<div class="section study-intro">
+		<div class="container">
+			<div class="section-header center bold">
+				<h2>Обучение пожарно-техническому минимому</h2>
+			</div>
+			<div class="row">
+				<div class="col-xl-7 col-md-7">
+					<h4>Преимущества нашего сервиса</h4>
+					<ul class="advantages">
+						<li>
+						Всегда на связи</li>
+						<li>
+							Видит и контролирует дату всех необходимых 
+							работ, связанных с безопасностью вашего объекта
+						</li>
+						<li>
+							Берет на себя обязанность контроля 
+							за документооборотом
+						</li>
+						<li>
+							Производит расчет стоимости на проведение 
+							необходимых работ
+						</li>
+					</ul>
+				</div>
+				<div class="col-xl-5 col-md-5 license-img">
+					<img src="img/license.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="cta-block center section support">
+		<div class="container">
+			<div class="section-header">
+				<h2>Закажите бесплатную консультацию</h2>
+				<p class="cta-caption">Дополнительная информация</p>
+			</div>
+			<form class="cta-form" action="">
+				<input type="text" placeholder="Ваше имя">
+				<input type="text" placeholder="E-mail">
+				<button type="button" class="btn btn-primary">Заказать</button>
+			</form>
+		</div>
+	</div>
+
+	<div class="section">
+		<div class="center bold">
+			<div class="container">
+				<div class="section-header">
+					<h2>Кому необходимо обучение?</h2>
+				</div>
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="students-item">
+							<div class="students-img">
+								<img src="img/freelance_manager.jpg" alt="">
+							</div>
+							<div class="students-caption center bold">
+								Руководителям и собственникам организаций
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="students-item">
+							<div class="students-img">
+								<img src="img/mhc.jpg" alt="">
+							</div>
+							<div class="students-caption center bold">
+								Главным специалистам
+								и сотрудникам
+								отвечающим за ПБ
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="students-item">
+							<div class="students-img">
+								<img src="img/rats.jpg" alt="">
+							</div>
+							<div class="students-caption center bold">
+								Всем сотрудникам и лицам,
+								выполняющим работу
+								с повышенной пожарной опасностью
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="section">
+		<div class="container">
+			<div class="section-header center bold">
+				<h2>Виды расчета</h2>
+			</div>
+			<div class="row">
+				<div class="col-xl-5 col-lg-5 ml-auto">
+					<div class="pricing-block priority center">
+						<h2>Дистанционный</h2>
+						<span class="caption">Без отрыва сотрудника от производства. Современные информационные технологии.</span>
+						<div class="pricing-body">
+							<div class="price-item">
+								<p class="price">2990 рублей</p>
+								<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#getService">Заказать</button>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				<div class="col-xl-5 col-lg-5 mr-auto">
+					<div class="pricing-block center">
+						<h2>Выездной</h2>
+						<span class="caption">Выезд нашего специалиста на ваш объект или обучение в нашем лекционном зале.</span>
+						<div class="pricing-body">
+							<div class="price-item">
+								<p class="price">2990 рублей</p>
+								<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#getService">Заказать</button>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<div class="section program-info">
+	<div class="container">
+		<div class="section-header center bold">
+			<h2>Обучение по ПТМ</h2>
+		</div>
+		<div class="content">
+			<!-- Содержимое этого блока можно удалить в случае если сдесь будет отображаться контент заполняемый в админке текстовым редактором -->
+			But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. 
+<br><br>
+Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? 
+		</div>
+		<img src="img/Picture1.png" alt="">
+		<div class="content">
+			But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. 
+<br>
+Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? 
+		
+		</div>
+		<div class="center bold">
+			<h2>Как получить знания по ПТМ?</h2>
+		</div>
+		<div class="">
+			Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great plea
+sure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? 
+<br><br>
+Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great plea
+sure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? 
+		</div>
+	</div>
+</div>
+	<div class="cta-block center section get-price">
+		<div class="container">
+			<div class="section-header">
+				<h2>Получить прайс на почту</h2>
+				<p class="cta-caption">Оставьте ваш электронный адрес и мы отправим вам цены</p>
+			</div>
+			<form class="cta-form" action="">
+				<input type="text" placeholder="E-mail">
+				<button type="button" class="btn btn-primary">Заказать</button>
+			</form>
+		</div>
+	</div>
+	<div class="section">
+		<div class="container">
+			<div class="section-header center bold">
+				<h2>Штрафы/Юридические аспекты</h2>
+			</div>
+			<div class="row">
+				<div class="col-xl-6">
+					<h4>Нормативные документы</h4>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+					</p>
+				</div>
+				<div class="col-xl-6">
+					<h4>Штрафы</h4>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section how-we-work">
+		<div class="container">
+			<div class="section-header bold center">
+				<h2>Как мы работаем</h2>
+			</div>
+			<div class="list">
+				<div class="list__wrap">
+					<div class="list__item list__item--left list__item--grey">
+						<div class="number">1</div>
+
+						<p class="list__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+						</p>
+					</div>
+				</div>
+				<div class="list__wrap">
+					<div class="list__item list__item--right list__item--red">
+						<div class="number">2</div>
+
+						<p class="list__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+						</p>
+					</div>
+				</div>
+				<div class="list__wrap">
+					<div class="list__item list__item--left list__item--grey">
+						<div class="number">3</div>
+
+						<p class="list__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+						</p>
+					</div>
+				</div>
+				<div class="list__wrap">
+					<div class="list__item list__item--right list__item--red">
+						<div class="number">4</div>
+
+						<p class="list__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+						</p>
+					</div>
+				</div>
+				<div class="list__wrap">
+					<div class="list__item list__item--left list__item--grey">
+						<div class="number">3</div>
+
+						<p class="list__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section contacts" id="contacts">
+		<div class="container">
+			<div class="section-header center bold">
+				<h2>Контакты</h2>
+				<h4>Компания ООО "Сфера"</h4>
+			</div>
+			<div class="contact-info">
+				<div class="row">
+					<div class="col-xl-8">
+						<div class="address">
+							<h4>Адрес:</h4>
+							<ul>
+								<li>105318, Москва, Измайловское шоссе, 24к1</li>
+								<li>600021, Владимирская область, город Владимир, улица Красноармейская, дом 43 б, 2 этаж, офис 27</li>
+								<li>603010, Нижегородская область, город Нижний Новгород, Климовская улица, 3, офис 1</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xl-2">
+						<h4>Телефон:</h4>
+						<ul>
+							<li>8 800 775 52 01</li>
+							<li>8 499 674 75 01</li>
+						</ul>
+					</div>
+					<div class="col-xl-2">
+						<h4>E-mail:</h4>
+						<ul>
+							<li>example@mail.ru</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="cta-block center sections">
+			<div class="container">
+				<div class="">
+					<h2>Оставьте заявку</h2>
+				</div>
+				<form class="cta-form" action="">
+					<input type="text" placeholder="Имя">
+					<input type="text" placeholder="Телефон">
+					<input type="text" placeholder="E-mail">
+					<button type="button" class="btn btn-primary">Заказать</button>
+				</form>
+			</div>
+		</div>
+		<div class="container">
+			<div class="map">
+				<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A881f08a710ff42948750a00a625d44fc5d00e019d9f503b4a244f7606e90c06a&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-3">
+					Компания: ООО “Сфера”
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>
